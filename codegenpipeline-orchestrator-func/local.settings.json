@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "Storage": "UseDevelopmentStorage=true",  
+    "SERVICEBUS_CODE_READY_CONNECTION": "Endpoint=sb://YOUR_SERVICEBUS_NAMESPACE.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=REDACTED",
+    "SERVICEBUS_RESULTS_READY_CONNECTION": "Endpoint=sb://YOUR_SERVICEBUS_NAMESPACE.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=REDACTED"
+  }
+}
